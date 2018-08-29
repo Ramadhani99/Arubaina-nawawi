@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Arubaina Nawawi</string>
+
+    <string name="hadith1">
+
+         عَنْ أَمِيرِ الْمُؤْمِنِينَ أَبِي حَفْصٍ عُمَرَ بْنِ الْخَطَّابِ رَضِيَ اللهُ عَنْهُ قَالَ:
+        سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ:
+        " إنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى،
+        فَمَنْ كَانَتْ هِجْرَتُهُ إلَى اللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إلَى اللَّهِ وَرَسُولِهِ،
+        وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوْ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إلَى مَا هَاجَرَ إلَيْهِ".
+رَوَاهُ إِمَامَا الْمُحَدِّثِينَ أَبُو عَبْدِ اللهِ مُحَمَّدُ بنُ إِسْمَاعِيل بن إِبْرَاهِيم بن الْمُغِيرَة بن بَرْدِزبَه الْبُخَارِيُّ الْجُعْفِيُّ [رقم:1]،
+        وَأَبُو الْحُسَيْنِ مُسْلِمٌ بنُ الْحَجَّاج بن مُسْلِم الْقُشَيْرِيُّ النَّيْسَابُورِيُّ [رقم:1907]
+        رَضِيَ اللهُ عَنْهُمَا فِي "صَحِيحَيْهِمَا" اللذَينِ هُمَا أَصَحُّ الْكُتُبِ الْمُصَنَّفَةِ.
+
+</string>
+    <string name="hadith1tafsiri">Kutoka kwa Amiri wa Waumuni,
+        Abu Hafs \'Umar Ibn Al Khattaab رضى الله عنه ambaye alisema :
+        Nilimsikia Mjumbe wa Mwenyeezi  Mungu صلى الله  عليه وسلم akisema:
+        Vitendo vinategemea (vinalipwa kwa) nia na kila mtu atapata kwa mujibu wa
+        kile alichokusudia. 
+        Kwa hivyo yule aliyehama  kwa ajili ya Allaah na Mtume wake, uhamaji
+        wake ni kwa ajili ya Allaah na Mtume wake,
+        na  yule ambae uhamaji wake ulikuwa ni kwa ajili ya manufaa
+        ya kidunia au kwa ajili ya kumuoa mwanamke (Fulani) 
+        uhamaji wake ulikuwa kwa kile kilichomuhamisha.
+        Imesimuliwa na Maimam wawili mabingwa wa hadithi Abu Abdalla Muhammad 
+        Ibn Ismail Ibn Ibrahim Ibn Mughiyra Ibn Bardizbah Al Bukhari na
+        Abu Al Husayn Muslim Ibn Al-Hajjaj Ibn Muslim Al Qushayri An-Naysaburi,
+        katika sahihi zao mbili ambavyo ni vitabu vya kutegemewa. </string>
+
+    <string name="hadith2">
+
+الحديث الثاني
+"مجىء جبريل ليعلم المسلمين أمر دينهم"
+ عَن عُمَر رضي اللهُ عنه أَيْضاً قال:   بَيْنَما نَحْنُ جُلْوسٌ عِنْدَ رسُولِ الله صلى الله عليه وسلم ذات يَوْم  إذْ طَلَعَ عَلَيْنَا رَجُلٌ شَدِيدُ بَياضِ الثِّيَاِبِ شَديدُ سَوَادِ الشَّعْرِ، لا يُرَى عليه أَثَرُ السَّفَرِ ولا يَعْرِفُهُ مِنَّا أَحَدٌ، حَتى جَلَسَ إلى النَّبِّي صلى الله عليه وسلم، فأسْنَدَ رُكْبَتَيْهِ إلى رُكْبَتَيْهِ ووَضَعَ كَفَّيْهِ على فَخِذَيْهِ، وقال: يا محمَّدُ أَخْبرني عَن الإسلامِ، فقالَ رسُولُ الله صلى الله عليه وسلم:(( الإسلامُ أَنْ تَشْهَدَ أَنْ لا إلهَ إلا اللهُ وأَنَّ محمِّداً رسولُ الله، وتُقِيمَ الصَّلاةَ، وتُؤتيَ الزَّكاةَ، وتَصُومَ رَمَضان، وتَحُجَّ الْبَيْتَ إن اسْتَطَعتَ إليه سَبيلاً)). قالَ صَدَقْتَ. فَعَجِبْنا لهُ يَسْأَلُهُ ويُصَدِّقُهُ، قال : فَأَخْبرني عن الإِيمان. قال: ((أَن تُؤمِنَ باللهِ، وملائِكَتِهِ وكُتُبِهِ، ورسُلِهِ، واليَوْمِ الآخِرِ، وتُؤمِنَ بالْقَدَرِ خَيْرِهِ وشَرِّهِ)) قال صدقت. قال : فأخْبرني عَنِ الإحْسانِ. قال:(( أنْ تَعْبُدَ الله كَأَنَّكَ تَرَاهُ فإنْ لَمْ تَكُنْ تَرَاهُ فإنَّهُ يَرَاك)). قال: فأَخبرني عَنِ السَّاعةِ، قال: ((ما المَسْؤولُ عنها بأَعْلَمَ مِنَ السَّائِلِ )). قال: فأخبرني عَنْ أَمَارَتِها، قال:(( أن تَلِدَ الأمَةُ رَبَّتَها، وأَنْ تَرَى الحُفاةَ العَُراةَ العالَةَ رِعاءَ الشَّاءِ يَتَطَاوَلُونَ في الْبُنْيانِ )) ثُمَّ انْطَلَقَ، فَلَبِثْتُ مَلِيّاً، ثُمَّ قال : ((يا عُمَرُ، أَتَدْرِي مَنِ السَّائِلُ؟)) قُلْتُ: اللهُ ورسُولُهُ أَعلَمُ . قال:(( فإِنَّهُ جِبْرِيلُ أَتاكُمْ يُعَلِّمُكُمْ دِينَكُمْ))   
+رَوَاهُ مُسْلِمٌ 
+
+</string>
+    <string name="hadith2tafsiri">Kutoka kwa \'Umar رضى الله عنه ambaye amesema: Siku moja tulikuwa tumekaa na Mtume صلى الله عليه وسلم  , hapo alitokea  mtu ambaye  nguo zake zilikuwa nyeupe pepe na nywele zake zilikuwa nyeusi sana; hakuwa na alama  ya machofu ya safari na wala hapakuwa na hata mmoja katika sisi aliyemtambua. Alienda akakaa karibu na Mtumeصلى الله عليه وسلم akaweka magoti yake karibu na magoti yake (Mtume) na akaweka viganja vyake juu ya mapaja yake kisha akasema; Ewe Muhammad! Niambie kuhusu Uislamu.  Mjumbe wa Allaah  صلى الله عليه وسلمalisema:  Uislamu ni kukiri kuwa hakuna mola isipokuwa  Allaah na Muhammad ni Mjumbe wake, kusimamisha Swalah, kutoa Zakaah, kufunga Ramadhaan na kwenda kuhiji (Makkah) ukiweza.  
+ 
+(Akasema yule mtu yaani Jibriyl) Umesema kweli. Tulipigwa na mshangao kwa kumuuliza kwake Mtume na kumsadikisha.  Na akasema tena: Niambie  kuhusu Iymaan.  Akasema (Mtume صلى الله عليه وسلم) Ni kumwamini Mwenyeezi-Mungu, Malaika Wake, Vitabu Vyake, Mitume Yake na siku ya Qiyaama, na  kuamini ya kuwa kheri na shari zinatoka Kwake (Allaah سبحانه وتعالى  ). (Akasema Jibriyl): Umesema kweli, akasema hebu nielezee kuhusu Ihsaan.  Akasema Mtume صلى الله عليه وسلم   Ni kumuabudu Allaah سبحانه وتعالى   kama vile unamuona na kamahumuoni basi Yeye Anakuona.  Akasema (Jibriyl):  Niambie    kuhusu Qiyaama.  Akajibu (Mtume  صلى الله عليه وسلم : Muulizwaji si mjuzi kama asivyo vilevile Muulizaji. Kisha akamwambia: Nijulishe alama zake: Akajibu (Mtume صلى الله عليه وسلم): Kijakazi atazaa bibi yake, na utaona wachunga wenda miguu chini, wenda uchi (wasio na uwezo wa kumiliki hata mavazi), mafukara (wasiokuwa hata na sehemu ya kuishi kwa umaskini) wakishindana kujenga majumba ya fahari. Kisha akaondoka (Jibriyl) na nilitulia kidogo (nikitafakari). Kisha akasema Mtume صلى الله عليه وسلم: "Ewe 'Umar! Je, unamjua ni nani yule aliyekuwa akiuliza? Nikasema: Allaah na Mjumbe wake wanajua zaidi.  Akasema Mtume   صلى الله عليه وسلم: Ni Jibriyl, alikuja kuwafundisha dini yenu.
+Imesimuliwa na Muslim
+ </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
