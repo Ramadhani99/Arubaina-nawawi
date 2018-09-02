@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:id="@+id/callfragement"
     android:layout_height="match_parent"
-    tools:context="com.madega.ramadhani.arubainanawawi.Activity.CallfragmentActivity">
+    tools:context="com.madega.ramadhani.arubainanawawi.Activity.HadithActivity">
 
+
+    <include layout="@layout/hadithlayout"/>
 </FrameLayout>

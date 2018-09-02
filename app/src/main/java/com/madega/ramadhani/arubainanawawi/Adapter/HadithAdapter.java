@@ -4,21 +4,22 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
-import android.telecom.Call;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
-import com.madega.ramadhani.arubainanawawi.Activity.CallfragmentActivity;
+import com.madega.ramadhani.arubainanawawi.Activity.HadithActivity;
 import com.madega.ramadhani.arubainanawawi.Models.HadithModel;
 import com.madega.ramadhani.arubainanawawi.R;
 
+import java.util.ArrayList;
 import java.util.List;
 
-import static android.support.v4.content.ContextCompat.startActivity;
-import static com.madega.ramadhani.arubainanawawi.Activity.CallfragmentActivity.HADITH;
+
+import static com.madega.ramadhani.arubainanawawi.Activity.HadithActivity.HADITH;
 
 
 /**
@@ -30,7 +31,7 @@ public class HadithAdapter extends RecyclerView.Adapter<HadithAdapter.HadithItem
     private Context context;
 
     private List<HadithModel> Hadithmodel;
-     public HadithAdapter(Context context,List Hadithmodel){
+     public HadithAdapter(Context context,List<HadithModel> Hadithmodel){
          this.context=context;
          this.Hadithmodel=Hadithmodel;
 
@@ -41,11 +42,8 @@ public class HadithAdapter extends RecyclerView.Adapter<HadithAdapter.HadithItem
     @NonNull
     @Override
     public HadithItemHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v= LayoutInflater.from(parent.getContext()).inflate(R.layout.hadith,parent,false
-        );
-        v.setOnClickListener(this);
-        HadithItemHolder holder=new HadithItemHolder(v);
-        return holder;
+        View v= LayoutInflater.from(parent.getContext()).inflate(R.layout.hadith,parent,false);
+        return new HadithItemHolder(v);
 
     }
 
@@ -63,6 +61,14 @@ public class HadithAdapter extends RecyclerView.Adapter<HadithAdapter.HadithItem
     public void onClick(View v) {
 
 
+
+
+    }
+
+    public void updateList(List<HadithModel> hadithList) {
+         Hadithmodel=new ArrayList<>();
+        Hadithmodel.addAll(hadithList);
+        notifyDataSetChanged();
 
 
     }
@@ -94,10 +100,12 @@ public class HadithAdapter extends RecyclerView.Adapter<HadithAdapter.HadithItem
 
         @Override
         public void onClick(View v) {
-            Intent showhadith=new Intent(context,CallfragmentActivity.class);
+
+            Intent showhadith=new Intent(context,HadithActivity.class);
             showhadith.putExtra(HADITH, new Gson().toJson(hadithModel));
             context.startActivity(showhadith);
 
         }
+
     }
 }

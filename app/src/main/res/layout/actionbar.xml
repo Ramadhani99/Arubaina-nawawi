@@ -1,6 +1,29 @@
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="60dp"
 
-</FrameLayout>
+    android:orientation="horizontal"
+    android:background="@color/colorAccent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:text="40 Nawawi"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginRight="24dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="14pt"
+        />
+
+    <ImageView
+        android:layout_marginLeft="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:layout_weight="0.1"
+
+        android:src="@drawable/ic_search_black_24dp" />
+
+</LinearLayout>
