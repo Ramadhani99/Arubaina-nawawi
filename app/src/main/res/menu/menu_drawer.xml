@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+      <item android:id="@+id/home"
+          android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+          android:title="Hadith"
+          >
+
+      </item>
+      <item android:id="@+id/mukadima"
+          android:icon="@drawable/ic_description_black_24dp"
+          android:title="Mukadima">
+
+      </item>
+      <item android:id="@+id/sira"
+          android:icon="@drawable/ic_person_pin_black_24dp"
+          android:title="Imam nawawi">
+
+      </item>
+      <item android:title="more"
+          >
+          <menu>
+              <item
+                  android:id="@+id/feedback"
+                  android:title="Feedbacks"
+                  android:icon="@drawable/ic_insert_comment_black_24dp">
+
+              </item>
+              <item android:id="@+id/rate"
+                  android:icon="@drawable/ic_star_border_black_24dp"
+                  android:title="Rate">
+
+              </item>
+              <item android:id="@+id/about"
+                  android:icon="@drawable/ic_info_outline_black_24dp"
+                  android:title="About">
+
+              </item>
+          </menu>
+      </item>
+
+
+  </group>
+</menu>

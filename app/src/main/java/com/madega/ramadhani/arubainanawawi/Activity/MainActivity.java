@@ -3,6 +3,10 @@ package com.madega.ramadhani.arubainanawawi.Activity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.support.annotation.NonNull;
+import android.support.design.internal.NavigationMenu;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,6 +15,8 @@ import android.support.v7.widget.SearchView;
 import android.text.Editable;
 import android.text.Layout;
 import android.text.TextWatcher;
+import android.view.Gravity;
+import android.view.MenuItem;
 import android.view.SearchEvent;
 import android.view.View;
 import android.widget.EditText;
@@ -36,6 +42,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ImageView mSharebtn;
     private LinearLayout mSearchLayout;
     private LinearLayout mMenulayout;
+    private DrawerLayout mLayoutDrawer;
+    private View mDrawerBtn;
+    private NavigationView nav;
     private  EditText text;
 
     @Override
@@ -68,7 +77,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         text = findViewById(R.id.searchtxt);
         setDatatoAdapter();
 
+        //open drawer btn
+        mDrawerBtn =findViewById(R.id.drawerbtn);
+        mDrawerBtn.setOnClickListener(this);
+        mLayoutDrawer=findViewById(R.id.layoutDrawer);
+
         text.addTextChangedListener(new addTextChangeListener(this, text));
+
+        nav=findViewById(R.id.nav);
+        nav.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                mLayoutDrawer.closeDrawer(Gravity.START);
+                return false;
+            }
+        });
 
 
     }
@@ -385,9 +409,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return getResources().getString(id);
     }
 
+
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+            case R.id.drawerbtn:
+                mLayoutDrawer.openDrawer(Gravity.START);
+                break;
             case R.id.searchbtn:
                 mMenulayout.setVisibility(View.GONE);
                 mSearchLayout.setVisibility(View.VISIBLE);

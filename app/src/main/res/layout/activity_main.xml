@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutDrawer"
+    android:layout_height="match_parent">
+<LinearLayout
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -15,20 +20,28 @@
 
         android:orientation="horizontal"
         android:background="@color/colorAccent">
-        <TextView
+        <ImageView
+            android:id="@+id/drawerbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_weight="0.1"
+
+            android:src="@drawable/ic_more_vert_black_24dp" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="left|center"
+
+            android:layout_weight="0.8"
+            android:fontFamily="sans-serif-light"
+            android:padding="8dp"
+
             android:text="40 Hadith Nawawi"
             android:textColor="@color/white"
-            android:padding="8dp"
-            android:layout_weight="0.8"
-
-            android:textStyle="bold"
-            android:layout_marginRight="24dp"
-            android:fontFamily="sans-serif-light"
             android:textSize="10pt"
-            />
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/searchbtn"
@@ -95,3 +108,14 @@
 
 
 </LinearLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/menu_drawer"
+        app:headerLayout="@layout/drawer_header"
+        >
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

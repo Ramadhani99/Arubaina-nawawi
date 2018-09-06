@@ -57,6 +57,18 @@ public class HadithActivity extends AppCompatActivity {
                 finish();
             }
         });
+        findViewById(R.id.sharebtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                sharingIntent.setType("text/plain");
+                String shareBody = hadith.getHadithName() +"\n"+ hadith.getHadithArabic() +"\n\n"+ hadith.getHadithKisw();
+                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, hadith.getHadithName());
+                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+                startActivity(Intent.createChooser(sharingIntent, "Share via"));
+
+            }
+        });
 
 
 
