@@ -40,7 +40,7 @@
 
             android:text="40 Hadith Nawawi"
             android:textColor="@color/white"
-            android:textSize="10pt"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <ImageView
@@ -97,14 +97,16 @@
 
 
 
-    </LinearLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recView"
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/addFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:listitem="@layout/hadith"
-        android:background="@color/backgroud"/>
+        android:layout_height="wrap_content">
+
+
+    </FrameLayout>
+
 
 
 </LinearLayout>

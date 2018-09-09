@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.madega.ramadhani.arubainanawawi.Fragment.DailogFeedbackFragment">
+    <ImageView
+        android:id="@+id/cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+
+        android:src="@drawable/ic_cancel_black_24dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marekebisho na Mapendekezo tutumia hapa"
+        android:padding="4dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/complain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="8dp"/>
+    <LinearLayout
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/sendText"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp"
+
+            android:src="@drawable/ic_sms_black_24dp"/>
+        <ImageView
+            android:id="@+id/sendWhatspp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="50dp"
+            android:padding="8dp"
+            android:src="@drawable/what"/>
+        <ImageView
+            android:id="@+id/sendMail"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="50dp"
+            android:padding="8dp"
+            android:src="@drawable/gmail_icon"/>
+    </LinearLayout>
+</LinearLayout>

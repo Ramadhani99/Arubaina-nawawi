@@ -44,7 +44,7 @@
             android:layout_gravity="left|center"
             android:layout_marginLeft="8dp"
             android:text="kutoka kwa abuu huraira"
-            android:textSize="8pt"
+            android:textSize="16sp"
 
             />
 
